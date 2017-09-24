@@ -22,7 +22,7 @@ public class CompareTheTriplets {
         System.out.println("");
     }
 
-    static int[] solve(int a0, int a1, int a2, int b0, int b1, int b2){
+    private static int[] solve(int a0, int a1, int a2, int b0, int b1, int b2){
         int[] a = {a0, a1, a2};
         int[] b = {b0, b1, b2};
         int[] result = new int[2];

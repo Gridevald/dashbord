@@ -20,7 +20,7 @@ public class GreedyFlorist {
         System.out.println(minimumCost);
     }
 
-    static int getMinimumCost(int n, int k, int[] c){
+    private static int getMinimumCost(int n, int k, int[] c){
         int sum = 0;
         Arrays.sort(c);
         int pos = n - 1;

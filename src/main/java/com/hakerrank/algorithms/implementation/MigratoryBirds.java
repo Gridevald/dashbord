@@ -15,8 +15,8 @@ public class MigratoryBirds {
             ar[ar_i] = in.nextInt();
         }
 
-        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
-        Set<Integer> set = new TreeSet<Integer>();
+        Map<Integer, Integer> map = new HashMap<>();
+        Set<Integer> set = new TreeSet<>();
 
         for (int i : ar) {
             if (map.containsKey(i)) {

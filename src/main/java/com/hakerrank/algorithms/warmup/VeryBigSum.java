@@ -14,14 +14,14 @@ public class VeryBigSum {
         for(int ar_i = 0; ar_i < n; ar_i++){
             ar[ar_i] = in.nextLong();
         }
-        long result = aVeryBigSum(n, ar);
+        long result = aVeryBigSum(ar);
         System.out.println(result);
     }
 
-    static long aVeryBigSum(int n, long[] ar) {
+    private static long aVeryBigSum(long[] ar) {
         long temp = 0;
-        for (int i = 0; i < ar.length; i++) {
-            temp += ar[i];
+        for (long l : ar) {
+            temp += l;
         }
         return temp;
     }

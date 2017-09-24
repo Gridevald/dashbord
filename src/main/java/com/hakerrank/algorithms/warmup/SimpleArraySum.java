@@ -18,10 +18,10 @@ public class SimpleArraySum {
         System.out.println(result);
     }
 
-    static int simpleArraySum(int n, int[] ar) {
+    private static int simpleArraySum(int n, int[] ar) {
         int temp = 0;
-        for (int i = 0; i < ar.length; i++) {
-            temp += ar[i];
+        for (int i : ar) {
+            temp += i;
         }
         return temp;
     }

@@ -14,7 +14,7 @@ public class TimeConversion {
         System.out.println(result);
     }
 
-    static String timeConversion(String s) {
+    private static String timeConversion(String s) {
         String ampm = s.substring(8, 10);
         StringBuilder sb = new StringBuilder(s);
         sb.setLength(8);

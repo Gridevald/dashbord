@@ -26,7 +26,7 @@ public class BetweenTwoSets {
 
         Arrays.sort(a);
         Arrays.sort(b);
-        List<Integer> divisor = new ArrayList<Integer>();
+        List<Integer> divisor = new ArrayList<>();
         int minInB = b[0];
         int count = 0;
 

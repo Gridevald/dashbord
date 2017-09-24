@@ -19,7 +19,7 @@ public class BirthdayCakeCandles {
         System.out.println(result);
     }
 
-    static int birthdayCakeCandles(int n, int[] ar) {
+    private static int birthdayCakeCandles(int n, int[] ar) {
         Arrays.sort(ar);
         int result = 0;
         for (int i = n - 1; i >= 0; i--) {
